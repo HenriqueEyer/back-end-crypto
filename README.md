@@ -8,7 +8,7 @@ Bem vindo ao Projeto Back-End-Crypto - Desafio - Full-Stack-Trybe
 
 O projeto é uma api para cotação de BitCoin, usando uma API externa **CoinDesk**, [documentação está disponível aqui](https://www.coindesk.com/coindesk-api), para pegar a cotação do BTC em dolar, para depois sim a api criada retornar os valores em EUR, CAD, BRL de acordo com a cotação do dólar que deve ser atualizada manualmente em uma das rotas.  
 
-Criado o frontEnd da aplicação em outro no repositório: .
+Criado o frontEnd da aplicação em [Front](https://github.com/HenriqueEyer/front-crypto-index).
 
 ---
 

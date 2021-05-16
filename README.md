@@ -68,8 +68,8 @@ Rotas:
       - email - padrão name@email.com
       - password - Necessário 6 digitos exatos e todos números.
 
-    - return: 
-      sucesso - statusCode: 200, 
+- return: 
+sucesso - statusCode: 200, 
 ```json
 {
   "message": "token(token de 16 caracteres)" 
@@ -81,9 +81,9 @@ Rotas:
   "message": "referente ao erro" 
 }
 ```
-  get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
-    - return: 
-      sucesso - statusCode: 200, 
+    get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
+  return: 
+  sucesso - statusCode: 200, 
 ```json
 {
     "time": {

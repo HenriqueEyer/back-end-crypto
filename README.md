@@ -76,48 +76,49 @@ Rotas:
   - get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
     - return: 
             sucesso - statusCode: 200, 
-            ```json{
+```json
+            {
                             time: {
                               updated: 'Mar 22, 2020 23:54:00 UTC',
                               updatedISO: '2020-03-22T23:54:00+00:00',
                               updateduk: 'Mar 22, 2020 at 23:54 GMT'
                             },
                             disclaimer: 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org',
-                            bpi: {
-                              USD: {
-                                code: 'USD',
-                                rate: '6,506.6717',
-                                description: 'United States Dollar',
-                                rate_float: 6506.6717
-                              },
-                              BTC: {
-                                code: 'BTC',
-                                rate: '1,0000.00',
-                                description: 'Bitcoin',
-                                rate_float: 1
-                              },
-                              BRL: {
-                                code: 'BRL',
-                                rate: '1.0000',
-                                description: 'Bitcoin',
-                                rate_float: 10000
+    bpi: {
+       USD: {
+         code: 'USD',
+         rate: '6,506.6717',
+         description: 'United States Dollar',
+         rate_float: 6506.6717
+       },
+       BTC: {
+          code: 'BTC',
+          rate: '1,0000.00',
+          description: 'Bitcoin',
+          rate_float: 1
+       },
+       BRL: {
+         code: 'BRL',
+         rate: '1.0000',
+         description: 'Bitcoin',
+         rate_float: 10000
                               },
                               EUR: {
-                                code: 'EUR',
-                                rate: '1.0000',
-                                description: 'Bitcoin',
-                                rate_float: 10000
-                              },
-                              CAD: {
-                                code: 'CAD',
-                                rate: '2.0000',
-                                description: 'Bitcoin',
-                                rate_float: 20000
-                              }
-                            }
-                          }
-            }
-            ```
+          code: 'EUR',
+          rate: '1.0000',
+          description: 'Bitcoin',
+          rate_float: 10000
+       },
+       CAD: {
+          code: 'CAD',
+          rate: '2.0000',
+          description: 'Bitcoin',
+          rate_float: 20000
+        }
+     }
+  }
+}
+```
             falha - statusCode do erro, {message: referente ao erro}
 
 

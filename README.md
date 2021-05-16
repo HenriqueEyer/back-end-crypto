@@ -69,7 +69,7 @@ Rotas:
 - password - Necessário 6 digitos exatos e todos números.
 
    
-    - sucesso - statusCode: 200, 
+sucesso - statusCode: 200, 
 ```json
 {
   "message": "token(token de 16 caracteres)" 
@@ -87,7 +87,7 @@ Rotas:
 
 ### get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
 
-    -sucesso - statusCode: 200, 
+  sucesso - statusCode: 200, 
 ```json
 {
     "time": {
@@ -130,7 +130,7 @@ Rotas:
     }
 }
 ```
-  - falha - statusCode do erro,
+  falha - statusCode do erro,
 ```json
 {
   "message": "referente ao erro"
@@ -143,13 +143,13 @@ Rotas:
 - currency - Precisa ser alguma dessas ["CAD","BRL","EUR"].
 - value - Qualquer numero inteiro maior que o zero.
 
-  - sucesso - statusCode: 200,
+  sucesso - statusCode: 200,
 ```json
 {
   "message": "Valor alterado com sucesso!" 
 }
 ```
-  - falha - statusCode do erro, 
+  falha - statusCode do erro, 
 ```json
 {            
   "message": "referente ao erro"

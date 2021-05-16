@@ -68,15 +68,16 @@ Rotas:
 - email - padrão name@email.com
 - password - Necessário 6 digitos exatos e todos números.
 
-- return: 
-sucesso - statusCode: 200, 
+  - return: 
+    - sucesso - statusCode: 200, 
 ```json
 {
   "message": "token(token de 16 caracteres)" 
 }
 ```
-falha - statusCode do erro,
+
 ```json
+  - falha - statusCode do erro,
 {
   "message": "referente ao erro" 
 }

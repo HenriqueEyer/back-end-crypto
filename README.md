@@ -52,10 +52,11 @@ Typescript
 
 [supertest](https://www.npmjs.com/package/supertest) - Para auxiliar nos testes da api
 
-[fetch-mock](https://www.npmjs.com/package/fetch-mock), [node-fetch](https://www.npmjs.com/package/node-fetch), [fetch-mock-jest]
-(https://www.npmjs.com/package/jest-fetch-mock) - para realizar request fetch e mock para os testes.
+[fetch-mock](https://www.npmjs.com/package/fetch-mock), [node-fetch](https://www.npmjs.com/package/node-fetch), [fetch-mock-jest](https://www.npmjs.com/package/jest-fetch-mock) - para realizar request fetch e mock para os testes.
 
 [eslint](https://eslint.org/) - [Padrão do Standard JavaScript](https://standardjs.com/)
+
+[git-commit-msg-linter](https://www.npmjs.com/package/git-commit-msg-linter) - Auxiliar commit formatados.
 
 
 ## Funcionamento

@@ -27,9 +27,7 @@ export const successRequestLogin = (token: string): HttpResponse => ({
 
 export const successRequestGetCurrency = (data: bodyCurrencies): HttpResponse => ({
   statusCode: 200,
-  body: {
-    data
-  }
+  body: data
 })
 
 export const successRequestUpdateCurrency = (): HttpResponse => ({

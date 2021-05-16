@@ -30,7 +30,7 @@ interface SutTypes {
 
 const makeSut = (): SutTypes => {
   class CurrencyAdapterStub implements GetCurrency {
-    async getCurrency (): Promise<bodyCurrencies> {
+    async getCurrency(): Promise<bodyCurrencies> {
       return mockData
     }
   }
@@ -52,7 +52,7 @@ describe('LoadCurrencyController', () => {
     const { sut } = makeSut()
     const httpResponse = await sut.handle()
     expect(httpResponse.statusCode).toBe(200)
-    expect(httpResponse.body.data).toEqual(mockData)
+    expect(httpResponse.body).toEqual(mockData)
   })
 
   test('Should call getCurrency one time', async () => {

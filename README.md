@@ -78,12 +78,12 @@ Rotas:
             sucesso - statusCode: 200, 
 ```json
 {
-    "time: {
-    "updated: 'Mar 22, 2020 23:54:00 UTC',
-    "updatedISO: '2020-03-22T23:54:00+00:00',
-    "updateduk: 'Mar 22, 2020 at 23:54 GMT'
-},
-    "disclaimer: 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from    openexchangerates.org',
+    "time": {
+    "updated": 'Mar 22, 2020 23:54:00 UTC',
+    "updatedISO": '2020-03-22T23:54:00+00:00',
+    "updateduk": 'Mar 22, 2020 at 23:54 GMT'
+    },
+    "disclaimer": 'This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from    openexchangerates.org',
     "bpi": {
        "USD": {
          "code": 'USD',

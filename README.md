@@ -63,7 +63,7 @@ Typescript
 
 Rotas:
 
-post: /api/login - Realiza o login da aplicação.
+### post: /api/login - Realiza o login da aplicação.
 -body: 
 - email - padrão name@email.com
 - password - Necessário 6 digitos exatos e todos números.
@@ -81,7 +81,7 @@ falha - statusCode do erro,
   "message": "referente ao erro" 
 }
 ```
-get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
+### get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
 return: 
 sucesso - statusCode: 200, 
 ```json
@@ -133,7 +133,7 @@ sucesso - statusCode: 200,
 }
 ```
 
-post: /api/crypto/btc - Realiza o update do valor do dólar
+### post: /api/crypto/btc - Realiza o update do valor do dólar
 -body: 
 - currency - Precisa ser alguma dessas ["CAD","BRL","EUR"].
 - value - Qualquer numero inteiro maior que o zero.

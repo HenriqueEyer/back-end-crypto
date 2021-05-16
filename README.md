@@ -63,10 +63,10 @@ Typescript
 
 Rotas:
 
-  post: /api/login - Realiza o login da aplicação.
-    -body: 
-      - email - padrão name@email.com
-      - password - Necessário 6 digitos exatos e todos números.
+post: /api/login - Realiza o login da aplicação.
+-body: 
+- email - padrão name@email.com
+- password - Necessário 6 digitos exatos e todos números.
 
 - return: 
 sucesso - statusCode: 200, 
@@ -75,15 +75,15 @@ sucesso - statusCode: 200,
   "message": "token(token de 16 caracteres)" 
 }
 ```
-    falha - statusCode do erro,
+falha - statusCode do erro,
 ```json
 {
   "message": "referente ao erro" 
 }
 ```
-    get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
-  return: 
-  sucesso - statusCode: 200, 
+get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
+return: 
+sucesso - statusCode: 200, 
 ```json
 {
     "time": {
@@ -126,27 +126,27 @@ sucesso - statusCode: 200,
     }
 }
 ```
-    - falha - statusCode do erro,
+- falha - statusCode do erro,
 ```json
 {
   "message": "referente ao erro"
 }
 ```
 
-  post: /api/crypto/btc - Realiza o update do valor do dólar
-    -body: 
-      - currency - Precisa ser alguma dessas ["CAD","BRL","EUR"].
-      - value - Qualquer numero inteiro maior que o zero.
+post: /api/crypto/btc - Realiza o update do valor do dólar
+-body: 
+- currency - Precisa ser alguma dessas ["CAD","BRL","EUR"].
+- value - Qualquer numero inteiro maior que o zero.
 
-    - return: 
-      sucesso - statusCode: 200,
+- return: 
+sucesso - statusCode: 200,
 
 ```json
 {
   "message": "Valor alterado com sucesso!" 
 }
 ```
-    - falha - statusCode do erro, 
+- falha - statusCode do erro, 
 ```json
 {            
   "message": "referente ao erro"

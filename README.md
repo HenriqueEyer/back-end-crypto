@@ -43,11 +43,18 @@ Para ver a cobertura de testes, utilize o comando `npm run test-coverage`.
 ### Tecnologia Usadas:
 
 Typescript
+
 [Express](https://expressjs.com/pt-br/),
+
 [Validator](https://www.npmjs.com/package/validator) - validações de campos
+
 [Jest](https://jestjs.io/docs/getting-started) - testes da aplicação
+
 [supertest](https://www.npmjs.com/package/supertest) - Para auxiliar nos testes da api
-[fetch-mock](https://www.npmjs.com/package/fetch-mock), [node-fetch](https://www.npmjs.com/package/node-fetch), [fetch-mock-jest](https://www.npmjs.com/package/jest-fetch-mock) - para realizar request fetch e mock para os testes.
+
+[fetch-mock](https://www.npmjs.com/package/fetch-mock), [node-fetch](https://www.npmjs.com/package/node-fetch), [fetch-mock-jest]
+(https://www.npmjs.com/package/jest-fetch-mock) - para realizar request fetch e mock para os testes.
+
 [eslint](https://eslint.org/) - [Padrão do Standard JavaScript](https://standardjs.com/)
 
 
@@ -55,6 +62,7 @@ Typescript
 
 Rotas:
   post: /api/login - Realiza o login da aplicação.
+  
     -body: 
           - email - padrão <name>@<email>.<com>
           - password - Necessário 6 digitos exatos e todos números.

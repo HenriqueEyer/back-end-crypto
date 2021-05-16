@@ -75,7 +75,8 @@ Rotas:
 
   - get: /api/crypto/btc - Realiza a request para pegar os dados, necessário possuir o token de 16 digitos gerado no login.
     - return: 
-            sucesso - statusCode: 200, {
+            sucesso - statusCode: 200, 
+            ```json{
                             time: {
                               updated: 'Mar 22, 2020 23:54:00 UTC',
                               updatedISO: '2020-03-22T23:54:00+00:00',
@@ -116,7 +117,7 @@ Rotas:
                             }
                           }
             }
-
+            ```
             falha - statusCode do erro, {message: referente ao erro}
 
 

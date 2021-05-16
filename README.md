@@ -76,7 +76,7 @@ Rotas:
 }
 ```
 
-    - falha - statusCode do erro,
+  falha - statusCode do erro,
 ```json
 {
   "message": "referente ao erro" 
